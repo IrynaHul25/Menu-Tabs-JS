@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+    <title>WayUp-JavaScript</title>
+  </head>
+  <body>
+    <h1>Camper Cafe</h1>
+    <div class="tabs-block-wrapper">
+      <div id="tabs">
+        <div class="tab-btn active" data-btn = '1'>Coffee</div>
+        <div class="tab-btn" data-btn = '2'>Sandwiches</div>
+        <div class="tab-btn" data-btn = '3'>Desserts</div>
+      </div>
+      <div id="contents">
+        <div class="content active" data-content="1">
+          <section>
+            <img src="https://cdn-icons-png.flaticon.com/512/751/751621.png" alt="coffee icon"/>
+            <article class="item">
+              <p class="flavor">French Vanilla</p><p class="price">3.00</p>
+            </article>
+            <article class="item">
+              <p class="flavor">Caramel Macchiato</p><p class="price">3.75</p>
+            </article>
+            <article class="item">
+              <p class="flavor">Pumpkin Spice</p><p class="price">3.50</p>
+            </article>
+            <article class="item">
+              <p class="flavor">Hazelnut</p><p class="price">4.00</p>
+            </article>
+            <article class="item">
+              <p class="flavor">Mocha</p><p class="price">4.50</p>
+            </article>
+          </section>
+
+
+
+        </div>
+        <div class="content" data-content = '2'>
+          <section>
+            <img src="https://cdn-icons-png.flaticon.com/512/669/669856.png" alt="icon"/>
+            <article class="item">
+              <p class="dessert">Egg Salad</p><p class="price">2.50</p>
+            </article>
+            <article class="item">
+              <p class="dessert">Grilled Cheese</p><p class="price">2.75</p>
+            </article>
+            <article class="item">
+              <p class="dessert">Wafflewich</p><p class="price">3.50</p>
+            </article>
+            <article class="item">
+              <p class="dessert">Ham Sandwich</p><p class="price">2.80</p>
+            </article>
+            <article class="item">
+              <p class="dessert">Smashed Chickpea</p><p class="price">4.50</p>
+            </article>
+          </section>
+        </div>
+
+
+
+        <div class="content" data-content = '3'>
+          <section>
+            <img src="https://cdn-icons-png.flaticon.com/512/3173/3173413.png" alt="pie icon"/>
+            <article class="item">
+              <p class="dessert">Donut</p><p class="price">1.50</p>
+            </article>
+            <article class="item">
+              <p class="dessert">Cherry Pie</p><p class="price">2.75</p>
+            </article>
+            <article class="item">
+              <p class="dessert">Cheesecake</p><p class="price">3.00</p>
+            </article>
+            <article class="item">
+              <p class="dessert">Cinnamon Roll</p><p class="price">2.50</p>
+            </article>
+          </section>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

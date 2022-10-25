@@ -1,0 +1,93 @@
+body {
+    background-image: url(https://media.istockphoto.com/photos/coffee-beans-explosion-picture-id1202890461?k=20&m=1202890461&s=612x612&w=0&h=SivJ4NtZe3Ws9C3YOVRqj-ElbNclx6tc_tOBGuZw8Lo=);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: bolder;
+    line-height: 40px;
+    letter-spacing: 10px;
+}
+
+
+.tabs-block-wrapper {
+    width: 100%;
+}
+
+#tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tab-btn {
+    width: 500px;
+    height: 40px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #b4785d;
+    border-radius: 5px;
+    background: #f0b921;
+    color: #ffffff;
+}
+
+.tab-btn.active {
+    background-color: #262422 ;
+    color: #ffffff;
+}
+
+#contents {
+    max-width: 1500px;
+    width: 100%;
+    height: 600px;
+    border: 4px solid #262422;
+    background: #f0b921;
+    margin: 0 auto;
+}
+
+.content {
+    display: none;
+}
+
+.content.active {
+   display: block;
+   border: none;
+   border-radius: 15px;
+}
+
+section img {
+    width: 100px;
+    margin-left: 47%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 70px;
+    font-size: 48px;
+    color: #262422;
+    font-weight: 600;
+  }
+  
+  .flavor, .dessert{
+    text-align: left;
+    width: 75%;
+  }
+  
+  .price {
+    text-align: right; 
+    width: 10%;
+    margin-right: 70px;
+  }
